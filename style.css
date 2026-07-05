@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ff90dc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+.canvas-container {
+    position: relative;
+    box-shadow: 0 10px 30px #8b2f4e80;
+    border-radius: 8px;
+    background: #ff90dc;
+}
+
+canvas {
+    display: block;
+}
